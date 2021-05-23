@@ -290,7 +290,45 @@
 .detection_content_right {
     width: 900px
 }
-
+.detection_content_right .detection_right_header{
+	display: flex;
+    position: relative;
+}
+.detection_content_right .detection_right_header .detection_right_header_left{
+	    width: 100%;
+	
+}
+.detection_content_right .detection_right_header .detection_right_header_right{
+	 padding-left: 4%;
+	
+}
+.detection_content_right .detection_right_header .detection_right_header_right p{
+	 margin: 15px 0 15px 0;
+	 font-weight: 500;
+    color: #1e203c;
+    line-height: 1;
+	font-size: 32px!important;
+	
+}
+.detection_content_right .detection_right_header .detection_right_header_right span{
+	 font-weight: 400;
+    color: #9698a0;
+    line-height: 30px;
+	font-size: 20px!important;
+	
+}
+.detection_content_right .detection_right_header .detection_right_header_right .zixun_btn{
+	position: absolute;
+    bottom: 0px;
+    width: 200px;
+    height: 46px;
+    line-height: 46px;
+	text-align: center;
+    background: #027cca;
+    color: #fff;
+    cursor: pointer;
+	font-size: 18px!important;
+}
 .detection_content_right_title {
     width: 100%;
     display: -webkit-box;
